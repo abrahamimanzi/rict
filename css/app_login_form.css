@@ -1,0 +1,157 @@
+.submit_btn_div{
+    padding: 10px;
+}
+.btn.submit{
+	outline: 0 none!important;
+    margin: auto;
+    font-size: 10px;
+    padding: 0px 8px;
+}
+
+.btn.submit .btn_icon{
+    padding: 5px;
+    font-size: 12px;
+}
+.btn.submit .btn_label{
+    font-size: 12px;
+    padding: 8px 8px 8px 5px;
+    display: inline-block
+}
+
+#login_form .remeber_label{
+	font-size: 14px;
+	color: #16325c;
+	cursor: pointer;
+	font-family:  "FacitWeb-low";
+	font-weight: normal;
+}
+
+#login_form .remeber_label input{
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+	font-family:  "FacitWeb-low";
+	font-weight: normal;
+	margin-left: 20px;
+	border: 2px solid red!important;
+}
+
+.login_word{
+	color: #16325c; 
+    text-align: center; 
+	margin: 10px 0px 20px 0px;
+	font-family:  "FacitWeb-low";
+	font-size: 23px ;
+}
+
+.login_fieldset{
+	padding: 20px 15px 3px 15px;
+}
+.login_fieldset hr{
+	margin: 0px;
+}
+.login_fieldset .data_in{
+	border: 1px solid #eee;
+	box-shadow: none;
+	padding: 8px 15px;
+	font-size: 16px;
+	font-family:  "FacitWeb-low";
+}
+
+
+input.data_in:focus, select.data_in:focus, .select2-container--default .select2-selection--single:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0!important;
+    /*border-bottom: 1px solid #ccc!important;*/
+    border: 1px solid #ccc!important;
+    
+}
+input.data_in, select.data_in, .select2-container--default .select2-selection--single{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0!important;
+    /*border-bottom: 1px solid #ccc!important;*/
+    border: 1px solid #ccc!important;
+    
+}
+
+.login_fieldset .data_in:focus,
+.login_fieldset .data_in.error{
+}
+.login_fieldset:focus hr{
+}
+.login_fieldset .data_in.one{
+}
+.login_fieldset .data_in.two{
+}
+#login_personal_data{
+	display: block;
+    width: 100%;
+    border: 0;
+    border-top: 3px solid #4285f4;
+    border-radius: 0px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+    
+    -webkit-box-shadow: 0 10px 6px -6px rgba(51,51,51,.2);
+	-moz-box-shadow: 0 10px 6px -6px rgba(51,51,51,.2);
+	box-shadow: 0 10px 6px -6px rgba(51,51,51,.2);
+    padding: 0px;
+}
+#login_personal_data .login_panel{
+    border-radius: 0px;
+}
+#no_visible{
+	visibility: hidden;
+}
+.login_panel{
+    padding: 20px 20px;
+    box-shadow: none;
+    margin-bottom: 0px;
+    background: #ffffff
+}
+.login_panel .error{
+	padding: 10px;
+}
+.login_panel #error_message{
+	padding: 10px;
+}
+
+.login_panel .panel-heading{
+    padding: 5px 0px;
+}
+
+.login_panel .panel-body{
+    padding: 10px 0px;
+}
+.login_panel .panel-body input{
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    color: #222;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.login_panel .input-group-addon{
+    background: #fff;
+    margin-top: -5px;
+}
+.login_panel .panel-footer{
+    background: transparent;
+    padding: 15px 10px 0px 10px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.bg-danger{
+    background: none;
+    color: #e4677b;
+    text-align: center
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent!important;
+}

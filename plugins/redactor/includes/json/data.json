@@ -1,0 +1,6 @@
+[
+    { "thumb": "/images/1_m.jpg", "image": "./images/1_m.jpg", "title": "Image 1", "folder": "Folder 1" },
+    { "thumb": "/images/2_m.jpg", "image": "./images/2_m.jpg", "title": "Image 2", "folder": "Folder 1" },
+    { "thumb": "/images/3_m.jpg", "image": "./images/3_m.jpg", "title": "Image 3", "folder": "Folder 1" },
+    { "thumb": "/images/4_m.jpg", "image": "./images/4_m.jpg", "title": "Image 4", "folder": "Folder 1" }
+]

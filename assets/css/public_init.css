@@ -1,0 +1,26 @@
+
+#public_form{
+}
+
+#public_form .form-group{
+    margin-bottom: 8px;
+}
+
+#public_form label{
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 1px;
+	color: #999
+}
+#public_form .req_sign{
+	color: red;
+}
+
+#public_form .in_field{
+    height: auto;
+    padding: 5px 12px;
+    font-size: 13px;    
+    line-height: 1.42857143;
+	color: #111;
+	font-weight: 600;
+}

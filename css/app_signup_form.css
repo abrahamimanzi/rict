@@ -1,0 +1,182 @@
+
+/*custom font*/
+
+#signup_form {
+	margin: 30px auto;
+	position: relative;
+}
+@media(max-width: 768px){
+	#signup_form {
+		margin: 20px auto;
+	}
+}
+
+#signup_form fieldset {
+	display: block;
+	background: white;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+	padding: 20px 15px;
+	margin: 0 0%;
+	box-sizing: border-box;
+	position: relative;
+}
+@media(min-width: 768px){
+	#signup_form fieldset {
+		padding: 20px 30px;
+		position: relative;
+	}
+}
+/*Hide all except first fieldset*/
+#signup_form fieldset:not(:first-of-type){
+	display: none;
+}
+
+/*buttons*/
+#signup_form .action-button {
+	width: 100px;
+	border: 0 none;
+	background: #508ccA;
+	color: #fff;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 8px 5px;
+	margin: 20px 0px 5px 0px;
+	transition: background .4s;
+}
+#signup_form .action-button:hover, #signup_form .action-button:focus {
+	border: 0 none;
+	background: #EF5B8B;
+	color: #fff;
+	transition: background .4s;
+}
+
+/*headings*/
+#signup_form .fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+#signup_form .fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+@media(max-width: 769px){
+	#signup_form {
+		margin: 20px auto;
+	}
+}
+/*progressbar*/
+#signup_form #progressbar {
+	overflow: hidden;
+	text-align: center;
+	padding: 10px 5px;
+	width: 100%;
+	position: relative;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#signup_form #progressbar li {
+	width: 33.3%;
+	list-style-type: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+	float: left;
+	position: relative;
+}
+#signup_form #progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #fff;
+	background: rgba(231,231,231,.6);
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#signup_form #progressbar li:after {
+	content: '';
+	width: 80%;
+	height: 2px;
+	background: #ccc;
+	position: absolute;
+	right: 65%;
+	left: -40%;
+	top: 9px;
+	z-index: -1; /*put it behind the numbers*/
+}
+#signup_form #progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#signup_form #progressbar li.active:before,  #signup_form #progressbar li.active:after{
+	background: #Ef5b8b;
+	color: #fff;
+	z-index: 5;
+}
+
+
+
+.logo-text a{
+	margin: 19px 0 32px;
+	margin: 1.1875rem 0 2rem;
+	color: #fff;
+	padding-top: 10px;
+	font-size: 36px;
+	font-size: 2.6rem;
+	font-family: "FacitWeb-Regular", "lucida grande", sans-serif;
+	line-height: 1.3;
+	letter-spacing: -.5px;
+	text-decoration: none;
+}
+.logo-text a span{
+	color: orange; font-weight: 700;
+	font-family: "FacitWeb-Semibold";
+}
+
+#signup_form h2.st-title{
+	text-align: center;
+	margin: 19px 0 32px;
+	margin: 1.1875rem 0 2rem;
+	color: #2e338c;
+	font-size: 36px;
+	font-size: 2.6rem;
+	font-family: "FacitWeb-Regular", "lucida grande", sans-serif;
+	line-height: 1.3;
+	letter-spacing: -.5px;
+}
+
+#signup_form h3.st-subtitle{
+	text-align: center;
+	margin: 19px 0 32px;
+	margin: 1.1875rem 0 2rem;
+	color: #888;
+	font-size: 13px;
+	font-family: "FacitWeb-Regular", "lucida grande", sans-serif;
+	line-height: 1.3;
+	letter-spacing: -.5px;
+}
+
+.mainHeader{
+	background: #1d256e; 
+	border-bottom: 1px solid #2e338c; 
+	height: 100px;
+}
+
+.error{
+	color: #d43f3a;
+	font-size: 0.75em;
+}
+#login_personal_data #error_message{
+	padding: 10px;
+}

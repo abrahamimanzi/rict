@@ -1,0 +1,114 @@
+
+@font-face{
+	font-family: NevisBold;
+	src: url(../fonts/nevis-bold.ttf);
+}
+body{
+	position: relative;
+	background: #3288dd;
+	height: 100%;
+}
+div.overall{
+	position: relative;
+	padding-top: 50px;
+	height: 100%;
+}
+.header_base{
+	background: #64DF99;
+	height: 70px;
+}
+.header_base h3{
+	text-align: center;
+	color: #fff;
+}
+div.overall > .main{
+	background: #fff;
+}
+#card_div{
+	width: 337px; 	
+	border: 1px solid #fff; 
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	height: 450px;
+	box-shadow: 0 0 5px rgba(220,220,220,.6);
+	background: #fff;
+	outline: 0 none;
+}
+#card_div header{
+	margin: 0px;
+	padding: 0px;
+}
+#card_div main{
+	padding: 15px 5px;
+}
+#card_div main .content{
+	padding-top: 20px;
+	
+}
+
+#card_div main .content .text_field.profile_name{
+	font-size: 19px;
+	color: #1374B8;
+}
+#card_div main .content .text_field.company_name{
+}
+#card_div footer{
+	height: 50px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#card_div footer .card_categ,
+#card_div main .content .text_field{
+	padding: 3px 5px;
+	text-transform: uppercase
+}
+#card_div footer .card_categ{
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -38px; 
+}
+
+/* CATEGS */
+#card_div.vip footer{
+}
+#card_div.delegate footer{
+}
+
+#card_div .profile_div{
+}
+#card_div .profile{
+	border: 2px solid #10B2E4;
+	border-radius: 10px;
+}
+.categBtn{
+	margin: 5px 2px;
+	width: 70px;
+}
+
+.colLeft{
+	padding-top: 8px;
+	padding-left: 30px;
+}
+.colRight{
+	padding-right: 20px;
+}
+.middleCol{
+	padding-right: 30px;
+	padding-left: 20px;
+}
+.menuBtn{
+	margin-top: 15px;
+	text-align: center;!important}
+	
+.controlsPannel h3{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	font-weight: 600;
+}
